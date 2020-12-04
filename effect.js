@@ -157,13 +157,13 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(1000).promise().done(function(){
 			i=i+1;
 			if(i>11){
-			$('#b11').animate({top:200, left: vw-650},500);
-			$('#b22').animate({top:200, left: vw-550},500);
-			$('#b33').animate({top:200, left: vw-450},500);
-			$('#b44').animate({top:800, left: vw-50},500);
-			$('#b55').animate({top:200, left: vw+350},500);
-			$('#b66').animate({top:200, left: vw+450},500);
-			$('#b77').animate({top:200, left: vw+550},500);
+			$('#b11').animate({top:200, left: vw-850},500);
+			$('#b22').animate({top:200, left: vw-750},500);
+			$('#b33').animate({top:200, left: vw-650},500);
+			$('#b44').animate({top:1700, left: vw-50},500);
+			$('#b55').animate({top:200, left: vw+550},500);
+			$('#b66').animate({top:200, left: vw+650},500);
+			$('#b77').animate({top:200, left: vw+750},500);
 			}
 			if(i==27){
 				$("p:nth-child(27)").fadeIn('slow').delay(6000);
